@@ -1,7 +1,8 @@
 from fastapi import FastAPI 
 from fastapi import Path
 import json
-from fastapi import H bTTPException 
+from fastapi import HTTPException 
+from pydantic import computed_field
 
 #create a FastAPI instance
 app=FastAPI()
@@ -26,3 +27,14 @@ def load_patient_data(patient_id:str=Path(...,description="The ID of the patient
       return patient
   #return {"message":"Patient not found"}
   raise HTTPException(status_code=404,detail="patient not found")
+
+# here we developing pydantic schema on http request body data contained in json 
+  # class data_schema(BaseModel):
+  #   var1:int
+  #   var2:int
+
+
+  #   @computed_field # to make this function can be seriallized and be part of transferred json 
+  #   @property # to make this function can be called as argument 
+  #   def calculate_weight(self):
+  #      return self.var1*self.var2 
