@@ -1,0 +1,541 @@
+{
+    "dataset_info": {
+        "title": "Clinic Patient Demo Dataset",
+        "data_type": "synthetic_demo_data",
+        "notice": "All people and medical records in this file are fictional and created for software testing. Do not use for clinical decisions."
+    },
+    "patients": [
+        {
+            "patient_id": "PAT-1001",
+            "first_name": "Omar",
+            "last_name": "Hassan",
+            "date_of_birth": "1988-04-12",
+            "sex": "male",
+            "blood_type": "O+",
+            "contact": {
+                "phone": "+20-TEST-0001",
+                "email": "omar.hassan@example.test",
+                "address": {
+                    "street": "12 Nile View Street",
+                    "district": "Dokki",
+                    "city": "Giza",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Mona Hassan",
+                "relationship": "spouse",
+                "phone": "+20-TEST-9001"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Hypertension"
+                ],
+                "past_surgeries": [],
+                "family_history": [
+                    "Type 2 diabetes"
+                ]
+            },
+            "allergies": [
+                {
+                    "substance": "Penicillin",
+                    "reaction": "Skin rash",
+                    "severity": "moderate"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Amlodipine",
+                    "strength": "5 mg",
+                    "frequency": "Once daily",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-22T09:15:00+02:00",
+                "blood_pressure_mmhg": "136/86",
+                "heart_rate_bpm": 78,
+                "temperature_c": 36.8,
+                "respiratory_rate_per_min": 16,
+                "oxygen_saturation_percent": 98,
+                "weight_kg": 84.2,
+                "height_cm": 178
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5001",
+                    "date": "2026-11-25",
+                    "time": "10:30",
+                    "doctor": "Dr. Salma Nabil",
+                    "department": "Internal Medicine",
+                    "status": "scheduled"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1002",
+            "first_name": "Mariam",
+            "last_name": "Fathy",
+            "date_of_birth": "1995-09-03",
+            "sex": "female",
+            "blood_type": "A+",
+            "contact": {
+                "phone": "+20-TEST-0002",
+                "email": "mariam.fathy@example.test",
+                "address": {
+                    "street": "8 Garden Lane",
+                    "district": "Maadi",
+                    "city": "Cairo",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Hany Fathy",
+                "relationship": "father",
+                "phone": "+20-TEST-9002"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Migraine"
+                ],
+                "past_surgeries": [
+                    "Appendectomy (2018)"
+                ],
+                "family_history": [
+                    "Migraine"
+                ]
+            },
+            "allergies": [],
+            "medications": [
+                {
+                    "name": "Sumatriptan",
+                    "strength": "50 mg",
+                    "frequency": "As prescribed for migraine attacks",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-20T12:05:00+02:00",
+                "blood_pressure_mmhg": "118/76",
+                "heart_rate_bpm": 72,
+                "temperature_c": 36.7,
+                "respiratory_rate_per_min": 15,
+                "oxygen_saturation_percent": 99,
+                "weight_kg": 62.5,
+                "height_cm": 165
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5002",
+                    "date": "2026-11-20",
+                    "time": "13:00",
+                    "doctor": "Dr. Karim Adel",
+                    "department": "Neurology",
+                    "status": "scheduled"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1003",
+            "first_name": "Youssef",
+            "last_name": "Mahmoud",
+            "date_of_birth": "1972-01-27",
+            "sex": "male",
+            "blood_type": "B+",
+            "contact": {
+                "phone": "+20-TEST-0003",
+                "email": "youssef.mahmoud@example.test",
+                "address": {
+                    "street": "21 University Road",
+                    "district": "Shubra",
+                    "city": "Cairo",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Nadia Mahmoud",
+                "relationship": "spouse",
+                "phone": "+20-TEST-9003"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Type 2 diabetes",
+                    "Dyslipidemia"
+                ],
+                "past_surgeries": [],
+                "family_history": [
+                    "Type 2 diabetes",
+                    "Coronary artery disease"
+                ]
+            },
+            "allergies": [
+                {
+                    "substance": "Shellfish",
+                    "reaction": "Hives",
+                    "severity": "moderate"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Metformin",
+                    "strength": "500 mg",
+                    "frequency": "Twice daily",
+                    "status": "active"
+                },
+                {
+                    "name": "Atorvastatin",
+                    "strength": "20 mg",
+                    "frequency": "Once daily",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-24T08:40:00+02:00",
+                "blood_pressure_mmhg": "142/88",
+                "heart_rate_bpm": 82,
+                "temperature_c": 36.6,
+                "respiratory_rate_per_min": 17,
+                "oxygen_saturation_percent": 97,
+                "weight_kg": 91.0,
+                "height_cm": 174
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5003",
+                    "date": "2026-11-19",
+                    "time": "09:00",
+                    "doctor": "Dr. Salma Nabil",
+                    "department": "Internal Medicine",
+                    "status": "scheduled"
+                },
+                {
+                    "appointment_id": "APT-4903",
+                    "date": "2026-10-24",
+                    "time": "08:30",
+                    "doctor": "Dr. Salma Nabil",
+                    "department": "Internal Medicine",
+                    "status": "completed"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1004",
+            "first_name": "Laila",
+            "last_name": "Mostafa",
+            "date_of_birth": "2001-06-18",
+            "sex": "female",
+            "blood_type": "AB+",
+            "contact": {
+                "phone": "+20-TEST-0004",
+                "email": "laila.mostafa@example.test",
+                "address": {
+                    "street": "5 Palm Street",
+                    "district": "Heliopolis",
+                    "city": "Cairo",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Rania Mostafa",
+                "relationship": "mother",
+                "phone": "+20-TEST-9004"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Seasonal allergic rhinitis"
+                ],
+                "past_surgeries": [],
+                "family_history": [
+                    "Asthma"
+                ]
+            },
+            "allergies": [
+                {
+                    "substance": "Dust mites",
+                    "reaction": "Sneezing and nasal congestion",
+                    "severity": "mild"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Cetirizine",
+                    "strength": "10 mg",
+                    "frequency": "As needed during allergy season",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-21T16:20:00+02:00",
+                "blood_pressure_mmhg": "112/70",
+                "heart_rate_bpm": 76,
+                "temperature_c": 36.9,
+                "respiratory_rate_per_min": 16,
+                "oxygen_saturation_percent": 99,
+                "weight_kg": 57.8,
+                "height_cm": 168
+            },
+            "appointments": []
+        },
+        {
+            "patient_id": "PAT-1005",
+            "first_name": "Karim",
+            "last_name": "Said",
+            "date_of_birth": "1964-11-09",
+            "sex": "male",
+            "blood_type": "O-",
+            "contact": {
+                "phone": "+20-TEST-0005",
+                "email": "karim.said@example.test",
+                "address": {
+                    "street": "30 Market Street",
+                    "district": "Agouza",
+                    "city": "Giza",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Amal Said",
+                "relationship": "daughter",
+                "phone": "+20-TEST-9005"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Osteoarthritis of knee",
+                    "Hypertension"
+                ],
+                "past_surgeries": [
+                    "Knee arthroscopy (2020)"
+                ],
+                "family_history": [
+                    "Hypertension"
+                ]
+            },
+            "allergies": [],
+            "medications": [
+                {
+                    "name": "Losartan",
+                    "strength": "50 mg",
+                    "frequency": "Once daily",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-23T11:10:00+02:00",
+                "blood_pressure_mmhg": "138/84",
+                "heart_rate_bpm": 74,
+                "temperature_c": 36.5,
+                "respiratory_rate_per_min": 17,
+                "oxygen_saturation_percent": 98,
+                "weight_kg": 88.4,
+                "height_cm": 171
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5005",
+                    "date": "2026-12-02",
+                    "time": "11:30",
+                    "doctor": "Dr. Dina Samir",
+                    "department": "Orthopedics",
+                    "status": "scheduled"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1006",
+            "first_name": "Nour",
+            "last_name": "Ibrahim",
+            "date_of_birth": "2012-02-14",
+            "sex": "female",
+            "blood_type": "A-",
+            "contact": {
+                "phone": "+20-TEST-0006",
+                "email": "guardian.nour@example.test",
+                "address": {
+                    "street": "17 School Avenue",
+                    "district": "Nasr City",
+                    "city": "Cairo",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Tamer Ibrahim",
+                "relationship": "father",
+                "phone": "+20-TEST-9006"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Mild persistent asthma"
+                ],
+                "past_surgeries": [],
+                "family_history": [
+                    "Asthma"
+                ]
+            },
+            "allergies": [
+                {
+                    "substance": "Pollen",
+                    "reaction": "Wheezing and sneezing",
+                    "severity": "moderate"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Salbutamol inhaler",
+                    "strength": "100 mcg per actuation",
+                    "frequency": "As prescribed for symptoms",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-19T10:00:00+02:00",
+                "blood_pressure_mmhg": "104/66",
+                "heart_rate_bpm": 88,
+                "temperature_c": 36.7,
+                "respiratory_rate_per_min": 19,
+                "oxygen_saturation_percent": 98,
+                "weight_kg": 42.1,
+                "height_cm": 151
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5006",
+                    "date": "2026-11-27",
+                    "time": "12:15",
+                    "doctor": "Dr. Hala Younis",
+                    "department": "Pediatrics",
+                    "status": "scheduled"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1007",
+            "first_name": "Salma",
+            "last_name": "Khaled",
+            "date_of_birth": "1980-08-30",
+            "sex": "female",
+            "blood_type": "B-",
+            "contact": {
+                "phone": "+20-TEST-0007",
+                "email": "salma.khaled@example.test",
+                "address": {
+                    "street": "4 Orchard Road",
+                    "district": "Faisal",
+                    "city": "Giza",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Hossam Khaled",
+                "relationship": "brother",
+                "phone": "+20-TEST-9007"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Hypothyroidism"
+                ],
+                "past_surgeries": [],
+                "family_history": [
+                    "Thyroid disease"
+                ]
+            },
+            "allergies": [
+                {
+                    "substance": "Latex",
+                    "reaction": "Contact dermatitis",
+                    "severity": "mild"
+                }
+            ],
+            "medications": [
+                {
+                    "name": "Levothyroxine",
+                    "strength": "75 mcg",
+                    "frequency": "Once daily",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-25T09:35:00+02:00",
+                "blood_pressure_mmhg": "124/80",
+                "heart_rate_bpm": 70,
+                "temperature_c": 36.6,
+                "respiratory_rate_per_min": 15,
+                "oxygen_saturation_percent": 99,
+                "weight_kg": 69.3,
+                "height_cm": 163
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5007",
+                    "date": "2026-11-21",
+                    "time": "10:00",
+                    "doctor": "Dr. Salma Nabil",
+                    "department": "Endocrinology",
+                    "status": "scheduled"
+                }
+            ]
+        },
+        {
+            "patient_id": "PAT-1008",
+            "first_name": "Adel",
+            "last_name": "Farouk",
+            "date_of_birth": "1957-03-06",
+            "sex": "male",
+            "blood_type": "AB-",
+            "contact": {
+                "phone": "+20-TEST-0008",
+                "email": "adel.farouk@example.test",
+                "address": {
+                    "street": "9 Clinic Road",
+                    "district": "Mohandessin",
+                    "city": "Giza",
+                    "country": "Egypt"
+                }
+            },
+            "emergency_contact": {
+                "name": "Dalia Farouk",
+                "relationship": "daughter",
+                "phone": "+20-TEST-9008"
+            },
+            "medical_history": {
+                "conditions": [
+                    "Chronic obstructive pulmonary disease (COPD)"
+                ],
+                "past_surgeries": [
+                    "Cataract surgery (2022)"
+                ],
+                "family_history": [
+                    "No significant family history reported"
+                ]
+            },
+            "allergies": [],
+            "medications": [
+                {
+                    "name": "Tiotropium inhaler",
+                    "strength": "18 mcg",
+                    "frequency": "As prescribed",
+                    "status": "active"
+                }
+            ],
+            "latest_vitals": {
+                "recorded_at": "2026-10-18T14:45:00+02:00",
+                "blood_pressure_mmhg": "130/82",
+                "heart_rate_bpm": 86,
+                "temperature_c": 36.8,
+                "respiratory_rate_per_min": 20,
+                "oxygen_saturation_percent": 95,
+                "weight_kg": 76.0,
+                "height_cm": 169
+            },
+            "appointments": [
+                {
+                    "appointment_id": "APT-5008",
+                    "date": "2026-11-29",
+                    "time": "14:00",
+                    "doctor": "Dr. Hala Younis",
+                    "department": "Pulmonology",
+                    "status": "scheduled"
+                }
+            ]
+        }
+    ]
+}
