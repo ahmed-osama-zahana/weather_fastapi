@@ -1,4 +1,5 @@
-from fastapi import FastAPI 
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse 
 from fastapi import Path
 import json
 from fastapi import HTTPException 
@@ -38,3 +39,28 @@ def load_patient_data(patient_id:str=Path(...,description="The ID of the patient
   #   @property # to make this function can be called as argument 
   #   def calculate_weight(self):
   #      return self.var1*self.var2 
+
+
+def save_patient_data(data:dict):
+    with open( r"C:\Users\AHMED\Ahmed Projects\Doctor_application_fastapi\patients_data.json","w") as f:
+       json.dump(data,f,indent=4) 
+
+
+
+@app.post("/add_patient")
+def add_patient(new_patient:dict):
+       data=load_patients_data()
+    
+       for  patient in data["patients"]:
+        if  new_patient["patient_id"] == patient["patient_id"]:
+          raise HTTPException(status_code=400,detail="Patient already exists")
+       
+       data["patients"].append(new_patient)
+       with open( r"C:\Users\AHMED\Ahmed Projects\Doctor_application_fastapi\patients_data.json","w") as f:
+          json.dump(data,f,indent=4)
+       #return {"message":"Patient added successfully"}
+       return JSONResponse(status_code=201, content={"message":"Patient added successfully"})
+
+# this cloudflare link is used to test the api endpoints on the internet without
+#  hosting it on a 
+# server  :https://suspected-instruments-organization-restoration.trycloudflare.com
